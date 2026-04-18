@@ -1,0 +1,6 @@
+target/
+logs/
+screenshots/
+allure-results/
+test-output/
+*.log
