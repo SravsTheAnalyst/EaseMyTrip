@@ -118,7 +118,7 @@ Cucumber Hooks
 - `pom.xml` - Maven configuration and dependencies
 - `src/test/resources/features/` - Cucumber feature files
 - `src/test/java/stepDefinitions/` - Cucumber step definitions
-- `src/test/java//base/pages/` - Page Object classes
+- `src/test/java/pages/` - Page Object classes
 - `src/test/java/base/WebDriverFactory.java` - Thread-local WebDriver lifecycle
 - `src/test/java/utils/ConfigReader.java` - Simple properties reader
 - `src/test/java/runners/TestRunner.java` - Cucumber/TestNG runner
@@ -197,8 +197,6 @@ The framework is designed to support CI/CD integration. It can be integrated wit
 ---
  
 ##Team Members
- 
-This project was developed as a group effort:
  
 Sravanthi (POC)
 Seema
