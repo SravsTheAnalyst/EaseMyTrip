@@ -71,7 +71,7 @@ By default, the suite uses Chrome. To change the browser, update `browser` in `c
 
 The test runner reads `src/test/resources/config.properties`. Key properties:
 
-- baseUrl - the target application URL (default: https://www.makemytrip.com/)
+- baseUrl - the target application URL (default: https://www.easemytrip.com/)
 - browser - browser to run tests in (`chrome` or `edge`)
 - implicitWait - implicit wait timeout (seconds)
 - explicitWait - explicit wait timeout (seconds)
@@ -79,7 +79,7 @@ The test runner reads `src/test/resources/config.properties`. Key properties:
 Example (`src/test/resources/config.properties`):
 
 ```
-baseUrl=https://www.makemytrip.com/
+baseUrl=https://www.easemytrip.com/
 browser=chrome
 implicitWait=10
 explicitWait=10
