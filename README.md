@@ -198,11 +198,11 @@ The framework is designed to support CI/CD integration. It can be integrated wit
  
 ##Team Members
  
-Sravanthi (POC)
-Seema
-Pratik
-Kusuma
-Mahalaxmi
+Sravanti (POC) ,
+Seema,
+Pratik ,
+Kusuma ,
+Mahalaxmi , 
  
 ---
 
