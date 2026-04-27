@@ -6,10 +6,11 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 	features = "src/test/resources/features",
     glue = {"stepDefinitions","hooks"},
-    //tags = //"@CabTest",
+    tags = "@CabTest",
     //"@GiftCardTest", 
-    //"@HotelTest",
-    plugin = {"pretty" , "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+   // "@HotelTest",
+    plugin = {"pretty" , "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+    		"rerun:target/failed_scenarios.txt"},
     monochrome = true
     )
 public class TestRunner extends AbstractTestNGCucumberTests{

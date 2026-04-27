@@ -27,7 +27,7 @@ public class BaseTest {
 		
 	}
 	//==============================================================
-	// Save Screnshot to the folder
+	// Save Screenshot to the folder
 	//==============================================================
 	
 	public void takeScreenshot(String filename) {

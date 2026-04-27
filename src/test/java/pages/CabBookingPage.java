@@ -64,7 +64,7 @@ public class CabBookingPage {
     @FindBy(xpath = "//div[@onclick='GetList()']")
     WebElement searchBtn;
     
-    @FindBy(xpath = "//input[@id='suv']")
+   @FindBy(xpath = "//input[@id='suv']")
     WebElement suvFilter;
     
     //==========================================================
